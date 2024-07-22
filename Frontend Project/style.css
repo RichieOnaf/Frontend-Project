@@ -1,0 +1,281 @@
+body {
+    background: rgb(30, 16, 8);
+}
+
+#desktop-nav{
+    background: black;
+
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin: -10px;
+    backdrop-filter: 50;
+}
+
+.nav-links{
+    gap: 8rem;
+    list-style: none;
+    font-size: 1.5rem;
+    /* position: fixed; */
+    margin-right: 450px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+h1 {
+    color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.body1 {
+    background: black;
+    display: block;
+    height: 450px;
+    width: 1200px;
+    margin-left: 200px;
+    gap: 4rem;
+    align-items: center;
+}
+
+.body2 img {
+    margin-left: 0;
+    height: 450px;
+}
+
+.body2 img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    font-style: oblique;
+    margin-left: 340px;
+    margin-top: -420px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.body1 p {
+    color: white;
+    margin-left: 340px;
+    font-size: larger;
+    margin-right: 10px;
+}
+
+.eclipse {
+    color: black;
+    background: orangered;
+    margin-left: 340px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.eclipse:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+#blog {
+    color: white;
+    display: block;
+}
+
+#blog h3 {
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.rise {
+    background: black;
+    color: white;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.rise p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rise img{
+    width: 400px;
+    border-radius: 10px;
+    border-top: solid 1px;
+}
+
+.rise button{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    background: orangered;
+    color: black;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.fall {
+    background: black;
+    color: white;
+    width: 400px;
+    margin-left: 800px;
+    margin-top: -165px;
+}
+
+.fall p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fall img {
+    margin-top: -350px;
+    width: 400px;
+    height: 265px;
+    border-radius: 20px;
+    border-top: solid 1px;
+}
+
+.fall button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    background: orangered;
+    color: black;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.rise2 {
+    background: black;
+    color: white;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+
+.rise2 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rise2 img{
+    width: 400px;
+    border-radius: 10px;
+    border-top: solid 1px;
+}
+
+.rise2 button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    background: orangered;
+    color: black;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.fall2 {
+    background: black;
+    color: white;
+    width: 400px;
+    margin-left: 800px;
+    margin-top: -165px;
+}
+
+.fall2 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fall2 img {
+    margin-top: -350px;
+    width: 400px;
+    height: 265px;
+    border-radius: 20px;
+    border-top: solid 1px;
+}
+
+.fall2 button {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 100px;
+    background: orangered;
+    color: black;
+    border-radius: 5px;
+    border: 1px;
+}
+
+#about {
+    color: white;
+    margin-top: 500px;
+}
+
+#about blockquote{
+    background: black;
+}
+
+#about h2 {
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 1rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  @media screen {
+    
+  }
