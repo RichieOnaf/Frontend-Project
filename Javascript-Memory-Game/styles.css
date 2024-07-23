@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 250px;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color rgb(181, 181, 181);
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-top: -60px;
+    margin-left: 200px;
+}
+
+.btn1{
+    margin-left: 200px;
+    margin-bottom: 70px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+#characters{
+    background: #3b385b;
+    color: white;
+    padding: 200px;
+}
+
+.comic1 img{
+    width: 500px;
+    height: 750px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.comic1 h1{
+    font-style: oblique;
+    margin-left: 850px;
+    margin-top: -600px;
+    color: white;
+    font-size: 40px;
+}
+
+.comic1 p{
+    margin-left: 850px;
+    color: white;
+    font-size: 18px;
+}
+
+.comicbtn{
+    margin-left: 850px;
+    color: white;
+    background-color: #3b385b;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.comic2{
+    margin-top: 280px;
+}
+
+.comic2 h1{
+    margin-left: 250px;
+    align-self: center;
+    font-style: oblique;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.comic2 p{
+    margin-left: 250px;
+    color: white;
+    font-size: 18px;
+}
+
+#comic3{
+    margin-left: 250px;
+}
+
+#comic3 h1{
+    color: white;
+    font-style: oblique;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#comic3 p{
+    color: white;
+    font-weight: 10;
+    font-size: 18px;
+}
+
+#comic3 img{
+    width: 500px;
+    height: 700px;
+}
+
+.comic4{
+    margin-left: 600px;
+    margin-top: -950px;
+}
+
+.comic4 h1{
+    color: white;
+}
+
+.comic4 p{
+    color: white;
+}
