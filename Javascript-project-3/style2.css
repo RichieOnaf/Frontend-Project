@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: whitesmoke;
+}
+
+.discovery {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  gap: 50px;
+}
+
+.discovery .card {
+  width: 300px;
+  /* border: gray solid 2px; */
+  border-radius: 10px;
+  border: 1px gray solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.discovery .card img {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card p {
+  margin-left: 80px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.card button {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card:hover{
+  color: white;
+  background-color: rgb(29, 84, 29);
+  transition: 0.9s;
+}
+
+.card button:hover{
+  color: rgb(29, 84, 29);
+  background-color: white;
+  transition: 0.9s;
+}
+
+.card img:hover{
+  opacity: 0.8;
+}
+
+.discovery2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  gap: 50px;
+}
+
+.discovery2 .card2 {
+  width: 300px;
+  /* border: gray solid 2px; */
+  border-radius: 10px;
+  border: 1px gray solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.discovery2 .card2 img {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card2 p {
+  margin-left: 80px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.card2 button {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card2:hover{
+  color: white;
+  background-color: rgb(29, 84, 29);
+  transition: 0.9s;
+}
+
+.card2 button:hover{
+  color: rgb(29, 84, 29);
+  background-color: white;
+  transition: 0.9s;
+}
+
+.card2 img:hover{
+  opacity: 0.8;
+}
+
+.discovery3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  gap: 50px;
+}
+
+.discovery3 .card3 {
+  width: 300px;
+  /* border: gray solid 2px; */
+  border-radius: 10px;
+  border: 1px gray solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.discovery3 .card3 img {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card3 p {
+  margin-left: 80px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.card3 button {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card3:hover{
+  color: white;
+  background-color: rgb(29, 84, 29);
+  transition: 0.9s;
+}
+
+.card3 img:hover{
+  opacity: 0.8;
+}
+
+.card3 button:hover{
+  color: rgb(29, 84, 29);
+  background-color: white;
+  transition: 0.9s;
+}
+
+.discovery4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  gap: 50px;
+}
+
+.discovery4 .card4 {
+  width: 300px;
+  /* border: gray solid 2px; */
+  border-radius: 10px;
+  border: 1px gray solid;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.discovery4 .card4 img {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card4 p {
+  margin-left: 80px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.card4 button {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card4:hover{
+  color: white;
+  background-color: rgb(29, 84, 29);
+  transition: 0.9s;
+}
+
+.card4 button:hover{
+  color: rgb(29, 84, 29);
+  background-color: white;
+  transition: 0.9s;
+}
+
+.card4 img:hover{
+  opacity: 0.8;
+}
+
+
+/* .new nav{
+    display: block;
+    margin-left: 100px;
+}
+
+.new nav ul{
+    display: block;
+}
+
+.new nav ul li{
+    padding: 10px;
+} */

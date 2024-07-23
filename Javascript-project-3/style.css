@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 0.5px solid gray;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10px;
+  margin-right: 5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: whitesmoke;
+}
+
+.villian {
+}
+
+.aura {
+  background: #efabfc;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.aura h1 {
+  margin-left: 200px;
+  padding: 0;
+  display: flex;
+  font-size: 50px;
+  font-weight: semi-bold;
+  margin-top: -100px;
+}
+
+.aura p {
+  margin-top: 100px;
+  padding-right: 60px;
+  margin-left: -402px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.aura1 {
+  margin-right: -400px;
+}
+
+.aura1 img {
+  width: 720px;
+}
+
+.aura1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+.halo {
+  background: #006241;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.halo h1 {
+  margin-left: 540px;
+  padding: 0;
+  display: flex;
+  font-size: 25px;
+  font-weight: small;
+  margin-top: -200px;
+  color: white;
+}
+
+.halo p {
+  margin-top: 30px;
+  margin-left: -450px;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 10;
+  color: white;
+}
+
+.halo1 {
+  margin-right: -400px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.halo1 img {
+  width: 720px;
+  margin: 0;
+  padding: 0;
+}
+
+.halo1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+.hood {
+  background: #b2b267;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.hood h1 {
+  margin-left: 80px;
+  padding: 0;
+  display: flex;
+  font-size: 52px;
+  font-weight: 550;
+  margin-top: -100px;
+  color: #1e3932;
+}
+
+.hood p {
+  margin-top: 100px;
+  padding-right: 120px;
+  margin-left: -490px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: 100;
+  color: #1e3932;
+}
+
+.hood1 {
+  margin-right: -400px;
+}
+
+.hood1 img {
+  width: 720px;
+}
+
+.hood1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+.pool {
+  background: #e99264;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.pool h1 {
+  margin-left: 540px;
+  padding: 0;
+  display: flex;
+  font-size: 50px;
+  font-weight: small;
+  margin-top: -200px;
+  color: #33433d;
+}
+
+.pool p {
+  margin-top: 30px;
+  margin-left: -430px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: small;
+  color: #33433d;
+}
+
+.pool1 {
+  margin-right: -400px;
+}
+
+.pool1 img {
+  width: 720px;
+}
+
+.pool1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+.stroke {
+  background: #337481;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.stroke h1 {
+  font-size: 40px;
+  margin-bottom: 250px;
+  margin-right: -250px;
+  padding: 50px;
+  color: #1e3932;
+  display: flex;
+}
+
+.stroke p {
+  font-size: 20px;
+  padding: 0;
+  color: #1e3932;
+}
+
+.stroke1 {
+  margin-right: -0px;
+}
+
+.stroke1 img {
+  width: 720px;
+}
+
+.stroke1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+
+.raven {
+  background: #006241;
+  display: flex;
+  margin: 50px;
+}
+
+.raven h1 {
+  margin-left: 600px;
+  padding: 0;
+  display: flex;
+  font-size: 25px;
+  font-weight: semi-bold;
+  margin-top: 100px;
+  color: white;
+}
+
+.raven p {
+  margin-top: 100px;
+  margin-left: -350px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+
+.raven1 {
+  margin-right: -400px;
+}
+
+.raven1 img {
+  width: 720px;
+}
+
+.raven1 img:hover{
+  opacity: 0.7;
+  transition: 0.6s;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 1rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.customer-reviews {
+  display: block;
+  margin-left: 30px;
+}
+
+.upcoming-events {
+  margin-left: 30px;
+}
+
+.company-history {
+  margin-left: 30px;
+}
